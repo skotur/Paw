@@ -48,7 +48,7 @@ export default function TweetId(): JSX.Element {
   const pageTitle = tweetData
     ? `${tweetData.user.name} on Twitter: "${text ?? ''}${
         images ? ` (${imagesLength} image${isPlural(imagesLength)})` : ''
-      }" / Twitter`
+      }" / PurrLife`
     : null;
 
   return (
