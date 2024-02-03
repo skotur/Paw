@@ -32,7 +32,7 @@ export default function People(): JSX.Element {
 
   return (
     <MainContainer>
-      <SEO title='People / PurrLife' />
+      <SEO title='People / PawwLife' />
       <MainHeader useActionButton title='People' action={back} />
       <section>
         {loading ? (

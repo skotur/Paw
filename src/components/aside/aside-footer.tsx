@@ -28,7 +28,7 @@ export function AsideFooter(): JSX.Element {
           </a>
         ))}
       </nav>
-      <p>© 2024 PurrLife.</p>
+      <p>© 2024 PawwLife.</p>
     </footer>
   );
 }

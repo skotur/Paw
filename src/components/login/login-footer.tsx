@@ -35,7 +35,7 @@ export function LoginFooter(): JSX.Element {
             {linkName}
           </a>
         ))}
-        <p>© 2024 PurrLife.</p>
+        <p>© 2024 PawwLife.</p>
       </nav>
     </footer>
   );

@@ -120,7 +120,7 @@ export function MobileSidebarModal({
         <ActionModal
           useIcon
           focusOnMainBtn
-          title='Log out of PurrLife?'
+          title='Log out of PawwLife?'
           description='You can always log back in at any time. If you just want to switch accounts, you can do that by adding an existing account.'
           mainBtnLabel='Log out'
           action={signOut}

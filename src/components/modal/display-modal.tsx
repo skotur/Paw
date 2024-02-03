@@ -30,7 +30,7 @@ export function DisplayModal({ closeModal }: DisplayModalProps): JSX.Element {
       <div className='flex flex-col gap-3 text-center'>
         <h2 className='text-2xl font-bold'>Customize your view</h2>
         <p className='text-light-secondary dark:text-dark-secondary'>
-          These settings affect all the PurrLife accounts on this browser.
+          These settings affect all the PawwLife accounts on this browser.
         </p>
       </div>
       <article
@@ -43,7 +43,7 @@ export function DisplayModal({ closeModal }: DisplayModalProps): JSX.Element {
             <div className='flex gap-1'>
               <UserName verified name='Twitter' />
               <p className='text-light-secondary dark:text-dark-secondary'>
-                @purrlife
+                @pawwlife
               </p>
               <div className='flex gap-1 text-light-secondary dark:text-dark-secondary'>
                 <i>·</i>
@@ -51,10 +51,10 @@ export function DisplayModal({ closeModal }: DisplayModalProps): JSX.Element {
               </div>
             </div>
             <p className='whitespace-pre-line break-words'>
-              At the heart of PurrLife are short messages called Purrs — just
+              At the heart of PawwLife are short messages called Purrs — just
               like this one — which can include photos, videos, links, text,
               hashtags, and mentions like{' '}
-              <span className='text-main-accent'>@purrlife</span>.
+              <span className='text-main-accent'>@pawwlife</span>.
             </p>
           </div>
         </div>

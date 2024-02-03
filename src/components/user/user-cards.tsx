@@ -23,15 +23,15 @@ type NoStatsData = Record<CombinedTypes, StatsEmptyProps>;
 
 const allNoStatsData: Readonly<NoStatsData> = {
   retweets: {
-    title: 'Amplify Tweets you like',
-    imageData: { src: '/assets/no-retweets.png', alt: 'No retweets' },
+    title: 'Amplify Purrs you like',
+    imageData: { src: '/assets/no-retweets.png', alt: 'No repurrs' },
     description:
-      'Share someone else’s Tweet on your timeline by Retweeting it. When you do, it’ll show up here.'
+      'Share someone else’s Purr on your timeline by Repurring it. When you do, it’ll show up here.'
   },
   likes: {
-    title: 'No Tweet Likes yet',
+    title: 'No Purr Likes yet',
     imageData: { src: '/assets/no-likes.png', alt: 'No likes' },
-    description: 'When you like a Tweet, it’ll show up here.'
+    description: 'When you like a Purr, it’ll show up here.'
   },
   following: {
     title: 'Be in the know',
