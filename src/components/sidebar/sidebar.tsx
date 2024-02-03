@@ -30,8 +30,7 @@ const navLinks: Readonly<NavLink[]> = [
     linkName: 'Bookmarks',
     iconName: 'BookmarkIcon',
     canBeHidden: true
-  },
-  
+  }
 ];
 
 export function Sidebar(): JSX.Element {
