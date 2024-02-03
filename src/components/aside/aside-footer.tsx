@@ -1,5 +1,5 @@
 const footerLinks = [
-  ['', 'https://paww.life'],
+  ['', 'https://paww.life']
   // ['Privacy Policy', 'https://twitter.com/privacy'],
   // ['Cookie Policy', 'https://support.twitter.com/articles/20170514'],
   // ['Accessibility', 'https://help.twitter.com/resources/accessibility'],
