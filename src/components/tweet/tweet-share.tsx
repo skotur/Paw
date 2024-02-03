@@ -62,14 +62,14 @@ export function TweetShare({
           <Popover.Button
             className={cn(
               `group relative flex items-center gap-1 p-0 outline-none 
-               transition-none hover:text-accent-blue focus-visible:text-accent-blue`,
-              open && 'text-accent-blue inner:bg-accent-blue/10'
+               transition-none hover:text-accent-green focus-visible:text-accent-green`,
+              open && 'text-accent-green inner:bg-accent-green/10'
             )}
           >
             <i
-              className='relative rounded-full p-2 not-italic duration-200 group-hover:bg-accent-blue/10 
-                         group-focus-visible:bg-accent-blue/10 group-focus-visible:ring-2 
-                         group-focus-visible:ring-accent-blue/80 group-active:bg-accent-blue/20'
+              className='relative rounded-full p-2 not-italic duration-200 group-hover:bg-accent-green/10 
+                         group-focus-visible:bg-accent-green/10 group-focus-visible:ring-2 
+                         group-focus-visible:ring-accent-green/80 group-active:bg-accent-green/20'
             >
               <HeroIcon
                 className={viewTweet ? 'h-6 w-6' : 'h-5 w-5'}
