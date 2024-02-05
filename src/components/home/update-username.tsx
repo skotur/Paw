@@ -113,15 +113,15 @@ export function UpdateUsername(): JSX.Element {
           />
         </UsernameModal>
       </Modal>
-      <Button
+      {/* <Button
         className='dark-bg-tab group relative p-2 hover:bg-light-primary/10
                    active:bg-light-primary/20 dark:hover:bg-dark-primary/10 
                    dark:active:bg-dark-primary/20'
         onClick={openModal}
       >
-        <HeroIcon className='h-5 w-5' iconName='SparklesIcon' />
-        <ToolTip tip='Top purrs' />
-      </Button>
+        <HeroIcon className='h-5 w-5' iconName='WrenchIcon' />
+        <ToolTip tip='Update Username' />
+      </Button> */}
     </>
   );
 }
