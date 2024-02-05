@@ -36,7 +36,7 @@ const topNavLinks: Readonly<MobileNavLink[]> = [
   },
   {
     href: '/people',
-    linkName: 'Twitter Circle',
+    linkName: 'Paw Circle',
     iconName: 'UserGroupIcon'
   }
 ];
